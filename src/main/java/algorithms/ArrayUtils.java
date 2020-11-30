@@ -2,11 +2,11 @@ package algorithms;
 
 public class ArrayUtils {
 
-//cum verifici daca un array e palindrom (citire la fel din ambele parti)
+                                                //cum verifici daca un array e palindrom (citire la fel din ambele parti)
 
     public static boolean isPalindrom(int[] arr) {
 
-        // v1 isPalindrom
+                                                // v1 isPalindrom
 //        boolean isPalindrom = false;
 //        palindrom:int[] arr = {1,3,5,5,3,1}
 
@@ -28,7 +28,7 @@ public class ArrayUtils {
 //        return isPalindrom;
 //    }
 //
-        // v2 isPalindrom
+                                                    // v2 isPalindrom
         for (int i = 0, j = arr.length - 1; i <= j; i++, j--) {
             if (arr[i] != arr[j]) {
                 return false;
@@ -150,5 +150,6 @@ public class ArrayUtils {
         a = a - b;
         System.out.println("Dupa: " + a + b);
     }
+
 }
 
